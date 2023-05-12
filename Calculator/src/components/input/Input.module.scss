@@ -1,0 +1,21 @@
+@import "../../styles/index.scss";
+@import "../../styles/varibles.scss";
+@import "../../styles/mixins.scss";
+
+.input {
+    width: 335px;
+    height: 96px;
+    .input_field {
+        width: 335px;
+        height: 96px;
+        @include text(56px, 300, 56px, $color-5, 335px);
+        background: none;
+        border: none;
+        outline: none;
+        text-align: right;
+    }
+    .black_color {
+        color: $color-8;
+    }
+}
+

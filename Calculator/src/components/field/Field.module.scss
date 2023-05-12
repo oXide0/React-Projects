@@ -1,0 +1,33 @@
+@import "../../styles/index.scss";
+@import "../../styles/varibles.scss";
+
+.field {
+    width: 375px;
+    height: 700px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s;
+}
+.field__controls {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .field__row {
+        display: flex;
+        gap: 16px;
+    }
+}
+
+.dark_theme {
+    background: $color-1;
+    color: $color-5;
+    box-shadow: 0 0 20px $color-1;
+}
+.light_theme {
+    background: $color-6;
+    color: $color-1;
+    box-shadow: 0 0 20px $color-6;
+}

@@ -1,0 +1,17 @@
+@import "../../styles/index.scss";
+@import "../../styles/varibles.scss";
+@import "../../styles/mixins.scss";
+
+.theme {
+    width: 335px;
+    height: 96px;
+    .theme__button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        transition: all .2s;
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+}
