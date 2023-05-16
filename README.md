@@ -1,5 +1,5 @@
 # Vite React App
-
+![alt text]([http://url/to/img.png](https://images.unsplash.com/photo-1566275529824-cca6d008f3da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGhvdG98ZW58MHx8MHx8&w=1000&q=80))
 This is a boilerplate project for creating a React application using Vite.
 
 [Vite](https://vitejs.dev/) is a fast development server and build tool for modern web applications. It provides an instant, no-bundler development experience with blazing-fast cold start, hot module replacement (HMR), and lightning-fast builds.
