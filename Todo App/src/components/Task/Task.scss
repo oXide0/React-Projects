@@ -1,0 +1,76 @@
+@import "../../styles/variables.scss";
+
+.hidden {
+    display: none;
+}
+.task__container {
+    width: 650px;
+    height: 60px;
+    border-radius: 5px;
+    background: $-color-tertiary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.task__content {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.task__content.done {
+    opacity: 0.8;
+}
+.task__info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .info__box {
+        width: 33px;
+        height: 33px;
+        cursor: pointer;
+        border-radius: 5px;
+        background: #fff;
+        transition: all .3s;
+    }
+    .info__box.purple {
+        background: $-color-primary;
+    }
+    .info__field {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        .info__name {
+            font-size: 15px;
+            color: $-color-white;
+        }
+        .info__name.done {
+            text-decoration: line-through;
+            opacity: 0.5;
+        }
+        .info__time {
+            font-size: 13px;
+            color: $-color-white;
+        }
+    }
+}
+.task__control {
+    display: flex;
+    gap: 10px;
+}
+.control__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+    &:hover {
+        background: $-color-secondary;
+    }
+    &:active {
+        transform: scale(0.9);
+    }
+}
