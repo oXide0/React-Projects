@@ -4,4 +4,5 @@
 - Todo App
 - Calculator
 - SnapShot
+- Emoji Search
 ## I write these projects while studying the React Library📘.
