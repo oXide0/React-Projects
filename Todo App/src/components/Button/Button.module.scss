@@ -1,0 +1,19 @@
+@import "../../styles/variables.scss";
+
+.button {
+    background: $-color-primary;
+    border: none;
+    border-radius: 5px;
+    color: $-color-white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all .3s;
+    padding: 12px 20px;
+    &:hover {
+        background: $-color-hover;
+    }
+    &:active {
+        transform: scale(0.9);
+    }
+}
